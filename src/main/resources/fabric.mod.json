@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "session-login",
+  "version": "${version}",
+  "name": "Session Login",
+  "description": "A meteor client addon that enables login in with session tokens.",
+  "authors": [
+    "guzman"
+  ],
+  "contact": {
+    "repo": "https://github.com/browtfbrowtf/meteor-session-login"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "wtf.guzman.rip.SessionLoginAddon"
+    ]
+  },
+  "mixins": [
+    "session-login.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "25,255,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}

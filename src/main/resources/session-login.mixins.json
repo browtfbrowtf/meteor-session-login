@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "wtf.guzman.rip.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinAccountsScreen",
+    "MixinWidgetScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
